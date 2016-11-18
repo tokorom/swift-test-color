@@ -5,7 +5,7 @@ let shell = require('gulp-shell')
 let runSequence = require('run-sequence')
 
 gulp.task('build', shell.task([
-  'swift build'
+  'swift build | xcpretty'
 ]))
 
 gulp.task('test', shell.task([
