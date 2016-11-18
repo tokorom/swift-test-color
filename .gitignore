@@ -1,4 +1,8 @@
+# default
 .DS_Store
 /.build
 /Packages
 /*.xcodeproj
+
+# gulp
+node_modules/
